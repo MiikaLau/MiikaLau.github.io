@@ -1,1 +1,34 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>React App</title><script defer="defer" src="/static/js/main.da94ec94.js"></script></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>WadView</title>
+    <script defer src="bundle.js?5861ddf7cf0023776fb1"></script></head>
+    <body>
+        <div id="topbar">
+            <h1 id="topbar-head"></h1>
+            <div id="topbar-input-boxes">
+                <input type="file" accept=".wad,.zip" id="wad-input-hidden"/>
+                <button id="wad-input-doom">Open DOOM1.WAD</button>
+                <button id="wad-input" >Select WAD</button>
+                <!-- <button id="wad-input-text-loader">Load URL (zip/wad)</button>
+                <input type="text" id="wad-input-text"/> -->
+            </div>
+        </div>
+        <div id="sidebar">
+            <div class="section" id="section-meta" style="display: none;">
+                <div class="head">Meta</div>
+            </div>
+            <div class="section" id="section-colors" style="display: none;">
+                <div class="head">Colors</div>
+            </div>
+            <div class="section" id="section-maps" style="display: none;">
+                <div class="head">Maps</div>
+            </div>
+        </div>
+        <div id="content">
+        </div>
+    </body>
+</html>
